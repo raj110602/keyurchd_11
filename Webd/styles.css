@@ -6,11 +6,15 @@ body{
     height:65vh;
     margin:0px;
     margin-top: -5vh;
-    opacity:0.9;
+    opacity:1.5;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(back.jpg);
+    background-image: url(bg.jpeg);
+}
+#body-header background-image{
+    width:100vw;
+    height: auto;
 }
 
 /* general horizontal list definition */
@@ -99,4 +103,26 @@ body{
     width:2.5vw;
     border-radius: 50%;
     margin: 1vh;
+}
+/* networking ends */
+
+/* my pic */
+#my-pic{
+    width:10vw;
+    margin-left:45vw;
+    margin-top: -5vw;
+    border-radius: 50%;
+    border:1px solid white;
+    
+}
+#my-pic:hover{
+    width:13vw;
+    margin-left: 43.5vw;
+    margin-top: -7.5vw;
+}
+#about p{
+    margin:auto;
+    padding-top: 3vh;
+    width:50vw;
+    text-align: center;
 }
